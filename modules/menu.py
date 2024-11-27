@@ -1,5 +1,4 @@
 from termcolor import colored
-from devto.search import construct_search_url
 def get_user_choice():
     """
     Displays an interactive menu to guide the user in selecting a category or tag.
@@ -34,7 +33,7 @@ def get_user_choice():
     4. Articles by Tag - Focus on topics of interest (e.g., #webdev).
 """)
 
-    user_choice = input(colored("Enter your choice (1/2/3/4/5): ", "yellow")).strip().lower()
+    user_choice = input(colored("Enter your choice (1/2/3/4): ", "yellow")).strip().lower()
 
     if user_choice == "1" or user_choice == "latest":
         print(colored("\n--- You've chosen: Latest Articles ---\n", "green", attrs=["bold"]))
