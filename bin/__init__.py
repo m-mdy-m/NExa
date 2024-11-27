@@ -10,8 +10,6 @@ def main():
     Main entry point for the NExa application.
     Provides a CLI to fetch and display articles from dev.to.
     """
-    print("Welcome to NExa - Dev.to Article Fetcher")
-
     try:
         fetch_articles()
     except Exception as e:
