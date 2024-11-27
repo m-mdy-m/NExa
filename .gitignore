@@ -1,0 +1,6 @@
+venv
+logs
+*.env
+__pycache__
+# Ignore Python egg info directories
+*.egg-info/
