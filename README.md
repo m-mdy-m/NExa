@@ -95,7 +95,6 @@ The tool will prompt you to choose an article category (e.g., "latest articles",
 ### Available Commands
 
 - `nexa`: Start fetching and displaying articles from **dev.to**.
-- `nexa -h` or `nexa --help`: Displays help information and available options.
 
 ### Output
 
