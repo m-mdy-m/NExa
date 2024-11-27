@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  nexa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexa
+    command: ["nexa"]
+    volumes:
+      - ./app
+    tty: true
+    stdin_open: true
+    environment:
+      - LICENSE=MIT
+    restart: unless-stopped
